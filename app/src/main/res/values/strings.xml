@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="music_ready">Ready to play</string>
+    <string name="previous">Previous</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="next">Next</string>
+    <string name="brand_name">ooxan</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="support_prompt">If You Need Any Support</string>
+    <string name="click_here">Click Here</string>
+    <string name="username_or_email">Enter Username Or Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Enter Email</string>
+    <string name="password">Password</string>
+    <string name="recover_password">Recovery Password</string>
+    <string name="or">Or</string>
+    <string name="not_a_member">Not A Member ? </string>
+    <string name="register_now">Register Now</string>
+    <string name="has_account">Do You Have An Account? </string>
+    <string name="create_account">Creat Account</string>
+    <string name="show_password">Show password</string>
+    <string name="hide_password">Hide password</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_apple">Continue with Apple</string>
+    <string name="logout_title">Sign out</string>
+    <string name="logout_message">Do you want to sign out of your account?</string>
+    <string name="logout">Sign out</string>
+    <string name="cancel">Cancel</string>
+</resources>

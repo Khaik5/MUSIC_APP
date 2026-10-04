@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="auth_screen_horizontal_padding">24dp</dimen>
+    <dimen name="auth_top_spacing">12dp</dimen>
+    <dimen name="auth_back_button_size">30dp</dimen>
+    <dimen name="auth_logo_text_size">22sp</dimen>
+    <dimen name="auth_title_top_margin">71dp</dimen>
+    <dimen name="auth_register_title_top_margin">40dp</dimen>
+    <dimen name="auth_title_text_size">27sp</dimen>
+    <dimen name="auth_support_top_margin">17dp</dimen>
+    <dimen name="auth_support_text_size">11sp</dimen>
+    <dimen name="auth_first_field_top_margin">34dp</dimen>
+    <dimen name="auth_register_first_field_top_margin">24dp</dimen>
+    <dimen name="auth_field_spacing">14dp</dimen>
+    <dimen name="auth_field_height">69dp</dimen>
+    <dimen name="auth_field_horizontal_padding">21dp</dimen>
+    <dimen name="auth_field_text_size">14sp</dimen>
+    <dimen name="auth_password_icon_size">25dp</dimen>
+    <dimen name="auth_recovery_top_margin">15dp</dimen>
+    <dimen name="auth_recovery_text_size">11sp</dimen>
+    <dimen name="auth_primary_button_top_margin">21dp</dimen>
+    <dimen name="auth_register_primary_button_top_margin">28dp</dimen>
+    <dimen name="auth_primary_button_height">69dp</dimen>
+    <dimen name="auth_primary_text_size">17sp</dimen>
+    <dimen name="auth_or_top_margin">25dp</dimen>
+    <dimen name="auth_or_line_width">126dp</dimen>
+    <dimen name="auth_or_text_horizontal_margin">10dp</dimen>
+    <dimen name="auth_or_text_size">11sp</dimen>
+    <dimen name="auth_social_top_margin">30dp</dimen>
+    <dimen name="auth_social_icon_size">29dp</dimen>
+    <dimen name="auth_social_gap">46dp</dimen>
+    <dimen name="auth_bottom_text_margin">26dp</dimen>
+    <dimen name="auth_bottom_text_size">12sp</dimen>
+    <dimen name="auth_back_icon_padding">8dp</dimen>
+    <dimen name="auth_divider_height">1dp</dimen>
+    <dimen name="auth_corner_radius">28dp</dimen>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="82dp"
+    android:paddingStart="17dp"
+    android:paddingEnd="14dp">
+
+    <ImageView
+        android:id="@+id/iv_cover"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:background="@drawable/bg_album_round_small"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/art_90s" />
+
+    <View
+        android:id="@+id/iv_live_dot"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:background="@drawable/bg_live_dot"
+        app:layout_constraintBottom_toBottomOf="@id/iv_cover"
+        app:layout_constraintStart_toStartOf="@id/iv_cover" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/quicksand_medium"
+        android:maxLines="1"
+        android:textColor="#F1F1F1"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@id/tv_artist"
+        app:layout_constraintEnd_toStartOf="@id/tv_meta"
+        app:layout_constraintStart_toEndOf="@id/iv_cover"
+        app:layout_constraintTop_toTopOf="@id/iv_cover"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="90s Album" />
+
+    <TextView
+        android:id="@+id/tv_artist"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/quicksand_regular"
+        android:maxLines="2"
+        android:textColor="#9B9B9F"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/iv_cover"
+        app:layout_constraintEnd_toStartOf="@id/tv_meta"
+        app:layout_constraintStart_toEndOf="@id/iv_cover"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        tools:text="Michael Jackson" />
+
+    <TextView
+        android:id="@+id/tv_meta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        android:fontFamily="@font/quicksand_regular"
+        android:textColor="#9B9B9F"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btn_more"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="23k" />
+
+    <ImageButton
+        android:id="@+id/btn_more"
+        android:layout_width="34dp"
+        android:layout_height="44dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="More"
+        android:padding="9dp"
+        android:src="@drawable/ic_more_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

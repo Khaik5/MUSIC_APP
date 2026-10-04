@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="accent_blue">#198BFF</color>
+    <color name="nav_selected">#FFFFFF</color>
+    <color name="nav_unselected">#8F8F93</color>
+    <color name="nav_active_indicator">#263C8DFF</color>
+    <color name="auth_surface">#FFFCFCFC</color>
+    <color name="auth_text">#FF313131</color>
+    <color name="auth_hint">#FF898989</color>
+    <color name="auth_field_stroke">#FFD0D0D0</color>
+    <color name="auth_back_surface">#FFF0F0F0</color>
+    <color name="auth_red">#FFEE2B2F</color>
+    <color name="auth_red_pressed">#FFD92125</color>
+    <color name="auth_divider">#FFD0D0D0</color>
+</resources>
